@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.item-li{
+    color:#fffaeb;
+}
+.cabecalho{
+    background-color:#f56666;
+}
+.logo{
+    text-align: center;
+    display: inline;
+}
+.tabela{
+    padding-left: 50px;
+    
+}
+.table {
+    margin-top: 150px;
+    background-color:#1A3C3B;
+    width: 550px;
+}
+
+.cor{
+    color:#fffaeb;
+}
+.table thead th {
+    color: #fff;
+}
+.table tbody {
+    background-color: #fffaeb;
+}
+#leaderboard #bateria tr {
+    display:block;
+    clear: both;
+    position: absolute;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+}
+.rank{
+    width: 100px;
+    font-size: 28px;
+    text-align: center;
+}
+.nome{
+    width: 150px;
+    font-size: 28px;
+    
+}
+.corLycra{
+    width: 200px;
+    font-size: 28px;
+}
+.resultado{
+    width: 100px;
+    font-size: 28px;
+}
