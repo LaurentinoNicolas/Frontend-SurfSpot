@@ -1,11 +1,17 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #f3f3f5ca;
+}
+tr{
+    height: 120px;
 }
 .item-li{
     color:#fffaeb;
 }
+.bat{
+    left: 90px;
+}
 .cabecalho{
-    background-color:#f56666;
+    background-color:#1B1B1B;
 }
 .logo{
     text-align: center;
@@ -39,20 +45,95 @@ body{
     -ms-transition-duration: 1s;
 }
 .rank{
-    width: 100px;
+    width: 10px;
+    display:block;
+    clear: both;
+    position: absolute;
+    top:40px;
+    
     font-size: 28px;
-    text-align: center;
+    
 }
 .nome{
-    width: 150px;
+    width: 600px;
     font-size: 28px;
     
 }
 .corLycra{
-    width: 200px;
     font-size: 28px;
+    
 }
 .resultado{
-    width: 100px;
-    font-size: 28px;
+    width: 30px;
+    font-size: 48px;
+    display: inline;
+    text-align: center;
+    
+}
+
+.pontos{
+        display: inline;
+}
+.nota{
+    width: 200px;
+    
+}
+.grid-header{
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    
+}
+
+.grid-main{
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    
+}
+
+.colocacao{
+    margin-top: 35px;
+    color: #fff;
+}
+
+.grid-aside{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 5fr 3fr;
+    grid-template-rows: auto;
+    margin: 15px;
+    width: 60%;
+}
+
+
+
+
+.circulo{
+    background: #fff;
+    color:#fff;
+    width:100px;
+    height:100px;
+    line-height:300px;
+    vertical-align:middle;
+    text-align:center;
+    font-size:30px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border: 1px black solid;
+}
+
+.linha{
+    width: 95%;
+    height: 50px;
+    border-top:1px solid ;
+    margin-top: 55px;
+    margin-left: 30px;
+    color: black;
+    
+}
+
+
+H1,h2,h3,h4,span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 }

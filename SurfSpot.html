@@ -18,7 +18,7 @@
           <div class="container">
             
             <a href="#" class="navbar-brand logo" >
-              <p class="logo">SURF<span style="color: #f6f4ec;">SPOT</span></p>
+              <img src="img/surfspotlogo.png" width="150px" alt="">
             </a>
   
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -27,14 +27,14 @@
   
             <div class="collapse navbar-collapse" id="nav-principal">
               <ul class="navbar-nav ml-auto ">
-                <li class=" nav-item ">
-                  <a href="" class="item-li nav-link ">Home</a>
+                <li  class=" nav-item ">
+                  <a href=""class="text-light nav-link ">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Baterias</a>
+                  <a href="" class="text-light nav-link">Baterias</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link navbar-light">Campeonatos</a>
+                  <a href="" class="text-light nav-link navbar-light color">Campeonatos</a>
                 </li>
                 
                 <li class="nav-item">
@@ -45,18 +45,30 @@
   
           </div>
         </nav>
-      </header><!--/fim Cabecalho -->
+    </header><!--/fim Cabecalho -->
+
+    <main class= "grid-main" id="lista" >
+        <div style="padding-top:30px; margin-left: 90px;">
+            <h1 style="margin: 0%; color: black;">SEMIFINAL</h1>
+            <h4 style="margin:0px; color: black;">JUNIOR</h4>
+            
+        </div>
+        <div class="linha"></div>
+        
+        
+    </main> 
+
     <div class="tabela">
     <!-- create a table here -->
         <table class="table " id="leaderboard">
-            <thead>
+            <!--<thead>
                 <tr>
                     <th class="rank"><abbr title="Position">Rank</abbr></th>
                     <th class="nome">Nome</th>
                     <th class="corLycra">Cor da lycra</th>
                     <th class="resultado">Nota</th>
                 </tr>
-            </thead>
+            </thead>-->
             <tbody id="bateria">
             </tbody>  
         </table>
@@ -67,5 +79,6 @@
     
     <!-- main script -->
     <script src="js/Javascipt.js"></script>
+    
 </body>
 </html>

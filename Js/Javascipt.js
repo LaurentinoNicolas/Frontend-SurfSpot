@@ -17,7 +17,7 @@ function descending(a, b) { return a.resultado < b.resultado ? 1 : -1; }
 
 function reposicao() {
     var height = $("#bateria .bat").height();
-    var y = height+220;
+    var y = height+100;
     for(var i = 0; i < bateria.length; i++) {
         bateria[i].$item.css("top", y + "px");
         y += height;			
@@ -97,10 +97,10 @@ function resetarTabela(){
     for(var i=0; i<bateria.length;i++){
         var $item = $(
             "<tr class='bat'>" + 
-                "<th class='rank'>" + (i + 1) + "</th>" + 
-                "<td class='nome'>" + bateria[i].nome + "</td>" + 
-                "<td class='corLycra'>" + bateria[i].corLycra + "</td>" + 
-                "<td class='resultado'>" + bateria[i].resultado + "</td>" + 
+                "<th><span class='rank'>" + (i + 1) + " - </span></th>" +
+                "<th class='corLycra'><img src='img/lycra-"+bateria[i].corLycra+".png' class='circulo'></th>" +
+                "<td class='nome'><div style='padding-top:30px;'><h1 style='margin: 0%; font-size: 30px;'>"+bateria[i].nome +"</h1><h4 style='margin:0px; font-size:15px;'>"+bateria[i].corLycra+"</h4></div></td>" + 
+                "<td class='nota' style='padding-top:23px;' > <p class='resultado'>"+ bateria[i].resultado +"<p class='pontos'> pontos</p> </td>" + 
             "</tr>"
         );
         
